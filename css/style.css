@@ -1,0 +1,43 @@
+/*PADRAO =====*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+html, body{
+	height: 100%; 
+
+}
+
+/*CLASSI FIXAS =====*/
+input[type=submit],
+input[type=text],
+input[type=email],
+textarea{
+	appearance:none;	
+	-webkit-appearance:none;
+}/*evita botoon ficar destorcido no navegadores mobile*/
+
+.container{
+	max-width: 1024px;
+	padding: 0 2%;
+	margin: 0 auto;
+	text-align: center; 
+}
+
+.clear{
+	clear: both;
+}
+
+/*ESTILIZAÇÃO =====*/
+.carousel-inner{
+	margin-bottom: 30px;
+}
+
+.tatto-img{
+	width:100%;
+	height: 690px;
+}
